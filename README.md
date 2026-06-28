@@ -39,19 +39,26 @@ A simple REST API built with **FastAPI** and **Pydantic** to demonstrate the fun
 
 ## ▶️ Running the Project
 
-1. Install the required packages:
+1.Create and activate virtual environment:
+
+```bash
+python -m venv myenv
+myenv\Scripts\activate.ps1  # Windows PowerShell
+```
+
+2. Install the required packages:
 
 ```bash
 pip install fastapi uvicorn
 ```
 
-2. Start the development server:
+3. Start the development server:
 
 ```bash
 uvicorn main:app --reload
 ```
 
-3. Open your browser:
+4. Open your browser:
 
 * Swagger UI: `http://127.0.0.1:8000/docs`
 * ReDoc: `http://127.0.0.1:8000/redoc`
